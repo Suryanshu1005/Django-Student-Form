@@ -1,0 +1,86 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(130, 211, 130);
+    border-radius: 9px;
+    padding: 20px 20px 20px  20px;
+    margin: 10px;
+}
+
+.button {
+    background-color: rgb(198, 233, 163);
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
+    border-radius: 15px;
+    border-color: rgb(137, 230, 142);
+    margin-top: 50px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.table {
+    border: 1px solid greenyellow;
+}
+
+table tr{
+    border: 1px solid greenyellow;
+    display: inline-grid;
+    height: 120px;
+    margin: 10px 10px 10px 10px;
+    font-family: sans-serif;
+}
+
+th {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid greenyellow;
+}
+
+.button_td {
+    background-color: rgb(198, 233, 163);
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: rgb(137, 230, 142);
+    font-family: monospace;
+}
+
+.button_save {
+    background-color: rgb(198, 233, 163);
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-color: rgb(137, 230, 142);
+    font-family: monospace;
+    display: flex;
+}
+
+td a{
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}

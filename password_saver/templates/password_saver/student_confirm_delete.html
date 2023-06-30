@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Delete</h1>
+        <form method="post" class="form">{% csrf_token %}
+            Are you sure you want to delete "{{ object }}" ?
+        <input type="submit" value="Submit" class="button"/>
+    </div>
+</form>
+</body>
+</html>
